@@ -1,0 +1,267 @@
+/* Reset some default styles for lists and links */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: purple; 
+    font-weight: bold;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+a:hover {
+    background-color: rebeccapurple; 
+    color: lightpink; 
+}
+
+/* Style the navbar background */
+.navbar {
+    background-color: purple;
+    padding: 10px 0;
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}.home-section {
+    
+    text-align: center; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* Style the section title */
+.section-home-title {
+    font-size: 24px;
+    color: Purple; 
+    margin-bottom: 10px; 
+}
+
+/* Style the section paragraph */
+.section-home-paragraph {
+    font-size: 16px; 
+    color: #fdb5ea; 
+}
+
+/* Style the About Me section container */
+.about-section {
+    
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+/* Style the section title for About Me */
+.section-about-title {
+    font-size: 28px; 
+    color: purple; 
+    margin-bottom: 10px; 
+}
+
+/* Style the section paragraph for About Me */
+.section-about-paragraph {
+    font-size: 18px;
+    color: #fdb5ea;
+}
+/* Style the Work section container */
+.work-section {
+    
+    padding: 20px; 
+    text-align: center; 
+}
+
+/* Style the section title for Work */
+.section-work-title {
+    font-size: 28px; 
+    color: purple; 
+    margin-bottom: 50px; 
+}
+
+/* Center-align the work content */
+.work-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the work list */
+.work-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+/* Style individual work items */
+.work-item {
+    margin-bottom: 20px; 
+    background-color: #fdb5ea; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+/* Style the work item title */
+.work-title {
+    font-size: 20px; 
+    color: #fdb5ea; 
+    margin-bottom: 5px; 
+}
+
+/* Style the work item description */
+.work-description {
+    font-size: 16px; 
+    color: blueviolet; 
+}
+/* Style the Resume section container */
+.resume-section {
+    
+    padding: 20px; 
+    text-align: center; 
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/* Style the section title for Resume */
+.section-resume-title {
+    font-size: 28px; 
+    color: purple; 
+    margin-bottom: 20px; 
+}
+
+/* Style the resume image */
+.resume-image {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+.contact-section {
+   
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the section title for Contact */
+.section-contact-title {
+    font-size: 28px; 
+    color: purple; 
+    margin-bottom: 20px;
+}
+
+/* Style the contact form */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+/* Style form labels */
+.contact-form label {
+    display: block; 
+    font-size: 18px; 
+    color: #444; 
+    margin-bottom: 5px; 
+}
+
+/* Style form input fields */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+/* Style the form button */
+.contact-form button {
+    background-color: purple; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+/* Style the form button on hover */
+.contact-form button:hover {
+    
+}
+/* Style the Video section container */
+.video-section {
+    
+    padding: 20px; 
+    text-align: center; 
+}
+
+/* Style the section title for Video */
+.section-video-title {
+    font-size: 28px; 
+    color: purple; 
+    margin-bottom: 20px; 
+}
+
+/* Style the video container */
+.video-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+/* Style the video element */
+.video-container video {
+    width: 100%; 
+    height: auto; 
+}
+/* Style the Audio Sample section container */
+.audio-section {
+    
+    padding: 20px; 
+    text-align: center; 
+}
+
+/* Style the section title for Audio Sample */
+.section-audio-title {
+    font-size: 28px; 
+    color: purple; 
+    margin-bottom: 20px; 
+}
+
+/* Style the audio container */
+.audio-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+/* Style the audio element */
+.audio-container audio {
+    width: 100%; 
+}
+body {
+    background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+footer {
+     
+    color: purple; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+/* Style the text within the footer */
+footer p {
+    font-size: 18px; 
+    font-weight: bold; 
+}
